@@ -111,6 +111,20 @@
             </tbody>
         </table>
 
+        <div>
+            <h2>On-going Learning Progress</h2>
+            <div>
+                <label for="mernProgress">MERN: </label>
+                <progress id="mernProgress" value="90" max="100">90% </progress>
+            </div>
+        </div>
+
+        <div>
+            <h2>Experience Level</h2>
+            <label for="experienceLevel">Experience: </label>
+            <meter id="experienceLevel" value="3" min="0" max="5">3years%</meter>
+        </div>
+
     </section>
 
     <!--Section: Projects -->
@@ -128,10 +142,18 @@
         </ol>
     </section>
 
+    <!--Section: Video-->
+            <video width="320" controls>
+                <source src="https://www.youtube.com/watch?v=3JZ_D3ELwOQ" type="video/mp4">
+                Your browser does not support the video.
+            </video>
+
+
     <!--Section: Contact-->
     <section id="contact">
         <h2>Contact me</h2>
-            <form>
+            <form   action="https://formspree.io/f/mldgvoel"
+            method="POST">
                 <div>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -141,14 +163,38 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="12">
+                </div>
+
+                <!--
+                <div>
+                    <label for="website"> Website: </label>
+                    <input type="url" id="website" name="website" pattern="https?://.+"/>
+                </div>
+                -->
+
                 
                 <div>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <label for="subject">Subject:</label>
+                    <select name="subeject" id="subject">
+                        <option value="inquiry">Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="job">Job Opportunity</option>
+                    </select>
                 </div>
+
+                <div>
+                    <label for="message">Message : </label>
+                    <textarea name="message" id="message"></textarea> 
+                </div>
+
                 
                 <button type="submit">Submit</button>
                 <button type="reset">Clear</button>
+
             </form>
 
     </section>
@@ -160,6 +206,7 @@
             <a href="tel:01983478582">Call me</a>
             <a href="mailto:taoshif2@gmail.com">Email me</a>
         
+        <div>
             <h3><u>Follow Me </u><i class="fa-solid fa-down-long"></i></h3>
             <ul>
                 <li>
@@ -181,6 +228,13 @@
                     </a>
                 </li>  
             </ul>
+        </div>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227582.80503873125!2d90.419689!3d23.780840500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e1!3m2!1sen!2sbd!4v1740239291056!5m2!1sen!2sbd" 
+            title="Dhaka, Bangladesh," width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
         </footer>
     </body>
 </html>
