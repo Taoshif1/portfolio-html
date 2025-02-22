@@ -1,6 +1,6 @@
-#HTML Learnings
+# HTML Learnings
 
-Basic HTML
+## Basic HTML
 
 1. How website works?
 
@@ -61,7 +61,7 @@ Basic HTML
 
 17. Deploy
 
-#Intermediate HTML
+## Intermediate HTML
 
     - Meta tag & SEO
     - Adding font-awesome icons and google font
@@ -72,4 +72,4 @@ Basic HTML
     - html5 elements
     - deploy
 
-#Advanced HTML
+## Advanced HTML
