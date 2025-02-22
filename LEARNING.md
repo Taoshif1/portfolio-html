@@ -73,3 +73,10 @@
     - deploy
 
 ## Advanced HTML
+
+    - more advanced form
+    - web accessibility
+    - HTML 5 API
+    - HTML Templates and web components
+    - Sources for symbols, icons, emojis & colors
+    - Learning resources
