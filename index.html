@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--Making it accessible for older version of internet explorer-->
         <meta name="keywords" content="portfolio, Web Development, Computer Science & Engineering, Taoshiflex, Gazi Taoshif"> 
         <meta name="description" content="This is a portfolio website of Gazi Taoshif.">
+        
         <title>My Portfolio</title>
 
         <!--Font Awesome CDN-->
@@ -26,6 +27,7 @@
         </style>
 
     </head>
+
     <body>
         <!--Section: navbar-->
         <header>
@@ -40,7 +42,7 @@
         </header> 
 
     <main>
-            <!--Section: intro-->
+        <!--Section: intro-->
     <section id="intro">
         <h1>Gazi Taoshif</h1>
         <p>A Passionate Computer Science & Engineering Student </p>
@@ -56,19 +58,7 @@
         <p>
             <b>Education:</b> I am a student of Computer Science & Engineering at East West University.
         </p>
-    </section>
-
-    <!--Section: hobbies-->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Reading Books</li>
-            <li>Doing GYM</li>
-            <li>Learning new things</li>
-            <li>Making Video Games</li>
-            <li>Travelling</li>
-        </ul>
-    </section>    
+    </section> 
 
     <!--Section: Skills-->
     <section id="skills">
@@ -135,7 +125,7 @@
             <h2>Experience Level</h2>
             <label for="experienceLevel">Experience: </label>
             <meter id="experienceLevel" value="3" min="0" max="5">3years%</meter>
-        </div>
+        </div> 
 
     </section>
 
@@ -153,6 +143,18 @@
             <li>Server-Client TCP Chatting Application</li>
         </ol>
     </section>
+        
+    <!--section: hobbies-->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Reading Books</li>
+            <li>Doing GYM</li>
+            <li>Learning new things</li>
+            <li>Making Video Games</li>
+            <li>Travelling</li>
+        </ul>
+    </section>  
 
     <!--Section: Video-->
             <video width="320" controls>
@@ -178,10 +180,10 @@
                     <span>Gender:</span>
 
                     <input type="radio" id="male" name="gender" value="male">
-                    <span>Male</span>
+                    <label for="male">Male</label>
 
                     <input type="radio" id="female" name="gender" value="female">
-                    <span>Female</span>
+                    <label for="female">Female</label>
                 </div>
                 
                 <div>
@@ -213,7 +215,6 @@
                     <input type="url" id="website" name="website" pattern="https?://.+"/>
                 </div>
                 -->
-
                 
                 <div>
                     <label for="subject">Subject:</label>
@@ -228,7 +229,6 @@
                     <label for="message">Message : </label>
                     <textarea name="message" id="message"></textarea> 
                 </div>
-
                 
                 <button type="submit">Submit</button>
                 <button type="reset">Clear</button>
