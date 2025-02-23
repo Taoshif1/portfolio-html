@@ -74,8 +74,14 @@
 
 ## Advanced HTML
 
-    - more advanced form - <input type="color/range">, datalist, fieldset (grouping number of items) & legend
+    - more advanced form 
+        - <input type="color/range">, datalist, fieldset (grouping   number of items) & legend
     - web accessibility
+        -use semantic tags
+        -use lang attribute, alt attribute for image
+        -use heading in order (h1-> h2-> h3)
+        -minimum color contrast ratio thresholds
+        -label (for) + input (id)
     - HTML 5 API
     - HTML Templates and web components
     - Sources for symbols, icons, emojis & colors
