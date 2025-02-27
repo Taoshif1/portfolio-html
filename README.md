@@ -48,8 +48,6 @@ Feel free to learn and contribute! If you find any issues or have suggestions fo
 
 * Taoshif (https://github.com/Taoshif1)
 
-## Support ⭐️
-
 # ⭐If this repository helped you in any way, please give it a star! ⭐
 
 # Snapshot-
