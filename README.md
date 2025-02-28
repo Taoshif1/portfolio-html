@@ -30,7 +30,7 @@ This portfolio website showcases my skills, projects and education beckground. I
 
     Simply double-click the `index.html` file or open it using your preferred web browser. 🌐
 
-Example basic HTML Structure:
+ Basic HTML Structure example:
 
 ```html
 <!DOCTYPE html>
