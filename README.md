@@ -30,6 +30,32 @@ This portfolio website showcases my skills, projects and education beckground. I
 
     Simply double-click the `index.html` file or open it using your preferred web browser. 🌐
 
+Example basic HTML Structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            </nav>
+    </header>
+    <section id="about">
+        </section>
+    <section id="projects">
+        </section>
+    <footer>
+        </footer>
+</body>
+</html>
+```
+
 ## Customization 🎨
 
 Feel free to customize this portfolio to fit your own needs. You can:
